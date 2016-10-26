@@ -1,0 +1,33 @@
+{
+  "name": "exercism-js",
+  "version": "1.0.0",
+  "description": "Solutions to Exercism JavaScript Challenges",
+  "scripts": {
+    "pretest": "tsc typescript/{src,test}/*.ts",
+    "test": "mocha typescript/test/ --reporter spec",
+    "posttest": "rm typescript/{src,test}/*.js",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmbenjamin/exercism-js.git"
+  },
+  "keywords": [
+    "exercism",
+    "javascript"
+  ],
+  "author": "Peter Benjamin <petermbenjamin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmbenjamin/exercism-js/issues"
+  },
+  "homepage": "https://github.com/pmbenjamin/exercism-js#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "outDir": "typescript/dist",
+    "module": "commonjs",
+    "noResolve": false
+  },
+  "exclude": [
+    "node_modules",
+    "typescript/dist"
+  ],
+  "include": [
+    "typescript/src/*"
+  ]
+}
