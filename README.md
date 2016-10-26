@@ -9,6 +9,7 @@ My exercism solutions.
 - If tests pass, copy the transpiled file from `dist` to the appropriate JavaScript challenge in `javascript/`, then `exercism submit javascript/xyz/abc.js`
 
 ## GO
+- Not yet started.
 
 ## Ruby
-
+- Not yet started.
